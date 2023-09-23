@@ -1,0 +1,52 @@
+/* public/css/styles.css */
+
+/* Estilos para el encabezado */
+.header-container {
+    background-color: #333; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 0; /* Espaciado interno */
+}
+
+.header-container h1 {
+    margin: 0; /* Elimina el margen superior del título */
+    padding-left: 20px; /* Espaciado interno en el título */
+}
+
+.header-container nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0; /* Elimina el margen de la lista */
+    padding: 0; /* Elimina el espaciado interno de la lista */
+}
+
+.header-container nav ul li {
+    display: inline; /* Muestra los elementos de lista en línea */
+    margin-right: 20px; /* Espacio entre elementos de lista */
+}
+
+.header-container nav ul li a {
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina la subraya del enlace */
+}
+
+/* Estilos para el pie de página */
+.footer-container {
+    background-color: #333; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 0; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+.footer-container ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el espaciado interno de la lista */
+}
+
+.footer-container ul li {
+    display: inline; /* Muestra los elementos de lista en línea */
+    margin-right: 20px; /* Espacio entre elementos de lista */
+}
+
+.footer-container ul li a {
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina la subraya del enlace */
+}
